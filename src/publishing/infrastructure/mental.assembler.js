@@ -25,8 +25,7 @@ export class MentalAssembler {
             console.error(`${response.status} - ${response.statusText}`);
             return [];
         }
-        const data = response.data;
-        let resources = Array.isArray(data) ? data : (Array.isArray(data?.mentals) ? data.mentals : []);
+        let resources = response.data instanceof Array ? response.data : response.data['mentals'];
 
         return resources.map(resource => this.toEntityFromResource(resource));
     }
