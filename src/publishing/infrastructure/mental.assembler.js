@@ -22,10 +22,11 @@ export class MentalAssembler {
      */
     static toEntitiesFromResponse(response) {
         if (response.status !== 200) {
-            console.error(`${response.status}, ${response.statusText}`);
+            console.error(`${response.status} - ${response.statusText}`);
             return [];
         }
-        let resources = Array.isArray(response.data) ? response.data : (Array.isArray(response.data?.mentals) ? response.data.mentals : []);
+        const data = response.data;
+        let resources = Array.isArray(data) ? data : (Array.isArray(data?.mentals) ? data.mentals : []);
 
         return resources.map(resource => this.toEntityFromResource(resource));
     }
