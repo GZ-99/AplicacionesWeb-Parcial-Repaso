@@ -1,0 +1,27 @@
+{
+  "option": {
+    "home": "Inicio",
+    "examiner": "Descripción General del Rendimiento del Examinador"
+  },
+  "home": {
+    "title": "Inicio",
+    "content": "Bienvenido a HIGN"
+  },
+  "card": {
+    "title": "Análisis del Examen del Estado Mental",
+    "sub": "Score Analytics"
+  },
+  "examiner": {
+    "title": "Descripción General del Rendimiento del Examinador"
+  },
+  "page-not-found": {
+    "title": "Página No Encontrada",
+    "content": "La ruta {unavailable-route} no está disponible",
+    "go-home": "Ir al Inicio"
+  },
+  "authoring-phrase": {
+    "intro": "Hecho con",
+    "use": "utilizando",
+    "author": "por el equipo de Desarrollo de {brand}"
+  }
+}

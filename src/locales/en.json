@@ -1,0 +1,27 @@
+{
+  "option": {
+    "home": "Home",
+    "examiner": "Examiner Performance Overview"
+  },
+  "home": {
+    "title": "Home",
+    "content": "Welcome to HIGN"
+  },
+  "card": {
+    "title": "Mental State Exam Analytics",
+    "sub": "Score Analytics"
+  },
+  "examiner": {
+    "title": "Examiner Performance Overview"
+  },
+  "page-not-found": {
+    "title": "Page Not Found",
+    "content": "The path {unavailable-route} is not available",
+    "go-home": "Go Home"
+  },
+  "authoring-phrase": {
+    "intro": "Made with",
+    "use": "using",
+    "author": "by {brand} Development Team"
+  }
+}
